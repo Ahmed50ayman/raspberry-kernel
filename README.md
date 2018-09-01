@@ -32,8 +32,9 @@ $ make clean all </br>
 
 
 <h3> How to build Android kerenl for Raspberry PI 3 : </h3>
-This Command is for bulding Linux kernel for Android OS. for better performance in Building ,
-use j [ your host computer cpu core count * 2] , for example for a 2-core pc we use -j 4 Argument in make.
+This Command is for bulding Linux kernel for Android OS. </br>
+for better performance in Building , use j [ your host computer cpu core count * 2] , 
+for example for a 2-core pc we use -j 4 Argument in make.
 </br>
 
 $ ARCH=arm scripts/kconfig/merge_config.sh arch/arm/configs/bcm2709_defconfig android/configs/android-base.cfg android/configs/android-recommended.cfg </br>
