@@ -1,11 +1,8 @@
-# raspberry-kernel
+## Linux kernel for Raspberry Pi
+This is linux kernel v4.4.35 for rasberry pi devices. in this version we added 
+android config files and you can build this kernel for android os.
 
-Linux kernel for Raspberry Pi 
-<p> This is linux kernel v4.4.35 for rasberry pi devices. in this version we added 
-android config files and you can build this kernel for android os. </p>
-
-<h3> Pending Features : </h3>
-
+## Pending Features : 
 1 . working on quick boot for (Android , Yocto , Buildroot) systems </br>
 2 . adding special system call for direct device controlling </br>
 3 . adding a new schuduler subsystem for better performance in Arm </br>
