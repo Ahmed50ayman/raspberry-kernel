@@ -2,6 +2,8 @@
 This is linux kernel v4.4.35 for rasberry pi devices. in this version we added 
 android config files and you can build this kernel for android os.
 
+<img src="https://www.tech2max.com/wp-content/uploads/image.jpg" />
+
 ## Pending Features
 1 . working on quick boot for (Android , Yocto , Buildroot) systems </br>
 2 . adding special system call for direct device controlling </br>
